@@ -1,0 +1,42 @@
+# WebSearch 完整正文
+# query: CSS background animation random movement organic fluid 2026
+# index: 10
+
+CSS3渐变背景必须用background-image而非background-color；linear-gradient需规范角度和色标；transition需借background-position模拟动画；radial-gradient须注意形状、尺寸和圆心；conic-gradient兼容性差需@supports检测。
+background-image: linear-gradient() 是唯一正解
+CSS3 渐变背景必须用  background-image ，不是  background-color 。后者只接受纯色或  transparent ，写成  background-color: linear-gradient(...)  会直接失效，浏览器静默忽略。
+常见错误是复制粘贴时漏掉  background-image  前缀，或者误用旧版 WebKit 语法（如  -webkit-gradient ），现代浏览器已全面弃用。
+必须写全：  background-image: linear-gradient(45deg, #ff6b6b, #4ecdc4); 方向角度推荐用标准度数（ 45deg ）或关键字（ to bottom right ），避免混用  top  和  45deg  导致行为不一致 渐变色标至少两个，单色无意义；若需三段过渡，明确写出位置：  #ff6b6b 0%, #ffd166 50%, #06d6a0 100%
+transition 不能直接作用于 gradient，得靠 background-position 模拟
+想让渐变“动起来”，比如悬停时颜色流动、背景缓慢偏移——直接对  background-image  加  transition  是无效的。CSS 不支持渐变函数本身的过渡动画。
+真正可行的方案是：固定一个大尺寸渐变，再用  background-size  配合  background-position  移动它。浏览器能平滑过渡  background-position  的像素值。
+立即学习 “ 前端免费学习笔记（深入） ”；
+基础结构： background-image: linear-gradient(90deg, #3a1c71, #d76d77, #ff9b31); background-size: 300% 300%; 悬停时移动： background-position: 100% 100%; transition: background-position 1.5s ease; 注意：若容器宽高不定（如 flex 子项），需加  background-attachment: fixed  或用伪元素隔离，否则位移会受父容器缩放干扰
+径向渐变 radial-gradient() 容易失控的三个参数陷阱
+radial-gradient()  行为比线性更难预测，尤其在响应式场景下。问题常出在形状、尺寸和圆心定位三者组合上。
+Red Panda AI
+AI文本生成图像
+下载
+默认是  ellipse （椭圆），但容器宽高不等时会拉伸变形；要保持正圆，显式写  circle 尺寸关键词  closest-side  /  farthest-corner  看似智能，实则依赖容器实际渲染尺寸——Flex 或 Grid 中子项未设宽高时，可能收缩到 0，导致渐变不可见 圆心坐标用百分比（如  at 30% 70% ）最安全；用像素（ at 20px 50px ）在缩放或 DPR > 1 设备上会错位 示例防坑写法： background-image: radial-gradient(circle at 25% 25%, #6a11cb 0%, #2575fc 100%);
+兼容性与性能：Safari 15.4+ 才支持 conic-gradient()
+锥形渐变  conic-gradient()  视觉冲击力强，但别急着用在生产环境。iOS 15.4 之前的 Safari 完全不识别，且降级后不会 fallback 到  background-color ，而是显示透明背景。
+如果必须用，得配  @supports  检测 + 渐进增强：
+复制 AI写代码
+1
+2
+3
+4
+5
+6
+7
+8
+div {
+background-color: #333;
+}
+@supports (background: conic-gradient(red, yellow, green)) {
+div {
+background-image: conic-gradient(from 0deg, #ff6b6b, #4ecdc4, #44b3a6);
+}
+}
+另外， conic-gradient()  在低端 Android WebView 或 Electron 旧版中帧率极低，滚动时明显卡顿——这种效果更适合静态 banner，而非滚动区域背景。
+真正难的不是写对语法，是判断该不该用、在哪用、怎么容错。渐变本身没状态，但它的尺寸、位置、缩放、设备像素比、父容器布局方式，全都在暗处牵制最终效果。

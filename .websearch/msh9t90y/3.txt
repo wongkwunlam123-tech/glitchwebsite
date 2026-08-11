@@ -1,0 +1,14 @@
+# WebSearch 完整正文
+# query: "Carnegie Mellon VEX U" OR "CMU Robotics Competition" team page
+# index: 4
+
+Assistant Robotics Professor Illah Nourbaksh (right) and Robotics Institute project scientist Ben Brown (below, left) have developed a supercharged pogo stick. With a fiberglass bow instead of a metal spring on the stick, users of the "BowGo" can catapult themselves nearly 10 times higher than they could by using the traditional toy sold in stores. Nourbaksh and Brown have applied for a patent and are negotiating with potential manufacturers to sell the technology. More information on the BowGo is on the Web at  www.cs.cmu.edu/~bowgo/ . 
+University to Buy Electricity from New Wind Farm in Fayette County
+ Largest Wind Energy Purchase in U.S. a Part of School's Commitment to a Cleaner Environment 
+ Carnegie Mellon will make the nation's largest single retail purchase of pollution-free, wind-generated electricity through an agreement with Community Energy, Inc., and Environmental Defense. 
+ Carnegie Mellon will buy five percent of its total electricity next year from new wind power generated in western Pennsylvania. The purchase of wind-generated electricity, equivalent to the energy required by nearly 650 homes per year, is part of Carnegie Mellon's commitment to cleaner energy and the environment. 
+ "Developing new technologies, policies and practices to protect and enhance our global environment is one of our strategic priorities," said President Jared L. Cohon.  More..
+Medical Robotics, Information Technology Center to Open
+ Carnegie Mellon has announced the formation of a new Medical Robotics and Information Technology Center (MERIT) that will focus on creating new robotic technologies to benefit the healthcare industry. 
+ The interdisciplinary center will merge Carnegie Mellon's strengths in robotics, computer science, information technology and engineering to create computer-based tools to assist surgeons in minimizing invasive medical procedures and improving patient outcomes. 
+ Principal investigators of the MERIT Center are orthopedic surgeon and alumnus Dr. Anthony DiGioia (E 1979, E 1982), Takeo Kanade, the U.A. and Helen Whitaker University professor of computer science and robotics, and Ken Gabriel, professor of electrical and computer engineering and robotics.  More..

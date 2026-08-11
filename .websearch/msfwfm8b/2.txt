@@ -1,0 +1,82 @@
+# WebSearch 完整正文
+# query: modern tech website background design 2026 professional robotics
+# index: 3
+
+文章与指南
+术语表
+白皮书
+AI 搜索优化
+内容概览
+六大知识模块
+模块 01
+AI辅助翻译学院
+AI 的优势与局限。我们的混合工作流程如何运作。哪些项目需要专家审核。本地化采购决策框架。
+8 篇文章
+探索 →
+模块 02
+行业解决方案
+针对半导体、生命科学、航空航天和智能制造的深度指南。合规检查清单、术语体系、工作流程蓝图。
+16 篇文章
+探索 →
+模块03
+全球化行动指南
+市场进入语言策略。同步多语种发布。文化适配与翻译的区别。长期翻译记忆库资产积累。
+10篇文章
+探索 →
+模块04
+术语词典
+涵盖半导体、生命科学、航空航天、制造业及内容全球化的双语术语。源自多年真实行业项目积累。
+426 terms
+探索 →
+模块05
+白皮书与报告
+翻译中的AI应用、面向全球市场的语言合规、CE认证要求、FDA申报指南——免费PDF下载。
+8篇白皮书
+模块06
+常见问题解答与决策工具
+交互式服务层级选择器、合规检查清单，以及关于全球化语言服务的20个常见问题解答。
+20多个问题
+AI辅助翻译学院
+AI Translation 8 min read
+What AI Translation Actually Does — And What It Cannot
+A clear-headed breakdown of LLM translation: what they excel at (speed, volume, pattern recognition) and where they systematically fail (domain accuracy, compliance precision, legal accountability).
+ 阅读更多  →
+Workflow 7 min read
+The AI + Expert Hybrid Model: How Angel Translation Combines Both
+How AI drafting, terminology enforcement, domain expert review and QA audit combine into a single accountable delivery process.
+ 阅读更多  →
+Decision 6 min read
+AI vs. Human Translation: A Decision Framework for Procurement Teams
+A practical framework for deciding which content goes to AI-assisted workflows and which requires expert-led delivery, based on consequence rather than preference.
+ 阅读更多  →
+Security 6 min read
+Is AI Translation Secure? Data Retention, NDA, and Model Training Explained
+What actually happens to your files in an AI-assisted workflow: retention, training use, NDA coverage, and the questions to ask any vendor.
+ 阅读更多  →
+Pricing 6 min read
+Why AI Translation Is Sometimes Cheaper — And Sometimes Not
+Where AI genuinely reduces cost, where it moves cost rather than removing it, and how to read a quote that includes AI in the workflow.
+ 阅读更多  →
+Terminology 7 min read
+How Translation Memory (TM) Creates a Compounding Quality Advantage
+Why terminology and translation memory are assets rather than tooling, and how they change cost and consistency over a multi-year documentation programme.
+ 阅读更多  →
+Quality 7 min read
+LISA QA 3.1 Standard: How Translation Quality Is Actually Measured
+What a structured QA model checks, why error categorisation matters more than a subjective quality score, and how to read a QA report.
+ 阅读更多  →
+Vendor 9 min read
+How to Choose a Translation Vendor in the AI Era: 12 Questions to Ask
+The questions that actually separate providers now that everyone claims AI capability — and what the evasive answers tell you.
+ 阅读更多  →
+Quality 7 min read
+ISO 17100, ISO 18587 and ISO 9001: What Translation Certifications Actually Mean
+A plain-English guide to the standards that show up in translation RFPs — what each one certifies, what it does not, and how to read a certification claim.
+ 阅读更多  →
+Quality 7 min read
+Why Rush Jobs Go Wrong — and How to Run One That Doesn’t
+The failure modes that show up specifically under deadline pressure, and the handful of things that actually keep a fast job accurate.
+ 阅读更多  →
+Quality 6 min read
+What Native-Speaker Review Actually Checks (It’s Not Grammar)
+The word “native review” gets so...

@@ -1,0 +1,18 @@
+# WebSearch 完整正文
+# query: tech website background design trends animated gradient mesh particles 2026
+# index: 4
+
+The inaugural National AI Challenge for Teens finals take place in Shanghai over the weekend.  Yang Meiping / Shanghai Daily
+More than 850 teenage students across China converged in Shanghai over the weekend for the finals of the inaugural National AI Challenge for Teens, a flagship national competition dedicated to nurturing young people's artificial intelligence literacy and innovative problem-solving skills.
+It was co-hosted by the China Welfare Institute (CWI), the China Women's Development Foundation and Shanghai's Huangpu District People's Government, and organized by the CWI Children's Palace.
+The competition drew over 40,000 student participants nationwide, including Hong Kong and Macau, for its preliminary rounds in April and May, with 856 outstanding contestants advancing to the two-day Shanghai finals. Competition results are set to be released on Monday.
+Contestants compete in the AI competition finals held in Huangpu Riverside, Shanghai.  Yang Meiping / Shanghai Daily
+Five tracks deliver comprehensive assessments
+Five cutting-edge categories are on offer – spanning foundational AI knowledge, practical AI tool deployment, AI-powered scientific inquiry, embodied robotics and LLM application – allowing students of different abilities to take part. The event comprehensively evaluates participants' diverse competencies, including translating AI theories into practical problem-solving tools, deploying AI technologies for real-world scenarios, and conducting cross-disciplinary AI scientific research.
+The embodied intelligence track stands out for its vivid practical scenarios. Centered on mini-supermarket order picking and checkout simulations, it adopts an integrated model of online simulation debugging and offline physical robot tests, assessing contestants' mastery of core robotic technologies such as perception, decision-making, precise control and multi-device collaborative operation.
+Robot completing shelf goods pickup during the AI finals.  Dong Jun / Shanghai Daily
+Inclusive initiative for underprivileged learners
+Upholding the principle of inclusive technological education, the competition organizing committee invited over 60 teenagers from paired assistance and underdeveloped regions to attend on-site observations and experience the event firsthand, bridging the gap in youth AI education resources across regions.
+Wang Yufeng, vice chairman of the China Welfare Institute, noted that the CWI has long upheld Soong Ching Ling's timeless vision of "giving the most precious things to children" to fuel the all-round development of young people. The inaugural competition aims to explore new paths for juvenile AI education, advance innovative youth AI training models, and promote inclusive, shared development of artificial intelligence education for adolescents nationwide.
+He also said that the competition put into practice President Xi Jinping's call to advance the national strategy for cultivating high-caliber sci-tech talents.
+Contestan...

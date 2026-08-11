@@ -1,0 +1,17 @@
+# WebSearch 完整正文
+# query: modern website background random motion animation 2026 best practices
+# index: 1
+
+Distributed Learning/Optimization algorithms with approximate Newton-type methods
+Subhrakanti Dey 教授
+乌普萨拉大学, 瑞典
+摘要
+ In this talk, we will consider the problem of distributed multi-agent learning, where the global aim is to minimize a sum of local objective (empirical loss) functions through local optimization and information exchange between neighbouring nodes. We introduce a Newton-type fully distributed optimization algorithm, Network-GIANT, which is based on GIANT, a Federated learning algorithm that relies on a centralized parameter server. The Network-GIANT algorithm is designed via a combination of gradient-tracking and a Newton-type iterative algorithm at each node with consensus-based averaging of local gradient and Newton updates. The resulting algorithm is efficient in terms of both communication cost and run-time, making it suitable for wireless networks. We prove that our algorithm guarantees global exponential convergence (also known as linear convergence) to the exact global optimum over the network for strongly convex and smooth loss functions.We also illustrate how Network-GIANT can achieve a faster local linear convergence rate asymptotically as the iterates get closer to the optimum. Recent extensions to compressed information transmission and accelerated (heavy-ball type) versions of Network-GIANT will also be discussed. Numerical studies show superior convergence performance of Network-GIANT and its extensions with compression or acceleration, over other state-of-the-art distributed learning algorithms and their corresponding counterparts with compression or acceleration. 
+个人简介
+Subhrakanti Dey received the Ph.D. degree from the Department of Systems Engineering, Research School of Information Sciences and Engineering, Australian National University, Canberra, in 1996. 
+He is currently a Professor and Head of the Signals and Systems division in the Dept of Electrical Engineering at Uppsala University, Sweden. He has also held professorial positions at NUI Maynooth, Ireland and University of Melbourne, Australia. His current research interests include networked control systems, distributed machine learning and optimization, and cyber-physical security. He is a Senior Editor for IEEE Transactions of Control of Network Systems and IEEE Control Systems Letters, and an Associate Editor for Automatica. He is a Fellow of the IEEE. 
+Encoders for Simultaneous Sensing of Position and Speed – A Bottleneck in Electrical Drives with Digital Control
+Ralph Kennel 教授
+慕尼黑工业大学, 德国
+摘要
+ In the beginning of this century there have been publications explaining the technical requirements of encoders to be used in electrical drives with digital control. The main statement of these papers have been that neither high resolution resolvers nor high resolution optical encoders really do provide features as good as of analogue tacho generators. The performance of servo drives with digital control, however, has improved in com¬parison to former drives with a...

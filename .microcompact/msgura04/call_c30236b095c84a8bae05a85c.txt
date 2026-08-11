@@ -1,0 +1,1 @@
+{"files":["./AGENTS.md","./src/routes/__root.tsx","./src/components/CustomCursor.tsx"],"pattern":"CustomCursor","path":".","totalFiles":3,"truncated":false,"returnedCount":3}

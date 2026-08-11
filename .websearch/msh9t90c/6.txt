@@ -1,0 +1,10 @@
+# WebSearch 完整正文
+# query: "MIT VEX U" team website OR "Massachusetts Institute of Technology" robotics competition
+# index: 7
+
+3月5日-6日，2015-2016年VEX机器人世界排名赛中国赛区选拔赛在西安举行，西安交大机械学院的4支参赛队伍获得了对抗赛冠、亚军，技能赛手动赛冠军和技能赛自动赛冠军的优异成绩，成功入围VEX—U 2016世界锦标赛。
+参赛师生合影
+VEX机器人世界锦标赛是由加利福尼亚州立大学（California State University）、卡耐基梅隆大学（CMU）、加州未来基金会（The Future Foundation）、内布拉斯加州大未来基金会（Great Future Foundation ）、南加州机器人技术论坛（Southern California Regional Robotics Forum ），美国著名的Autodesk公司、Universal Studio公司、Innovation First, Inc（简称IFI公司）等组织发起，美国太空总署（NASA）、美国易安信公司（EMC）、亚洲机器人联盟（Asian Robotics League ）等公司支持的国际机器人大赛。该大赛本着创新、创业的宗旨，要求参赛队自行设计、编程并制作机器人，参赛的机器人需按照一定的规则在特定的场地完成比赛活动。VEX机器人世界锦标赛代表着教育型机器人国际最高水准，每年吸引着全球30多个国家，上百万青少年参与选拔比赛。
+调试机器人
+比赛进行中
+本次机器人世界排名赛中国赛区选拔赛是VEX大学组机器人竞赛首次在中国举行，吸引了国内众多知名高校参赛。大赛分为对抗赛和技能赛，每项比赛分自动、手动两部分。经过激烈角逐，西安交大2支队伍成功入围VEX-U 2016世界锦标赛，将与美国纽约理工大学、卡耐基梅隆大学、常春藤教育、东北大学、科罗拉多大学，英国曼彻斯特学院等众多世界知名大学共同角逐本届世锦赛 总冠军。

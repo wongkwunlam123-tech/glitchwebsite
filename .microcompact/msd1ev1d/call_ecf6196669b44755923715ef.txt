@@ -1,0 +1,15 @@
+The file /home/project/src/routes/about.tsx has been updated. Made 1 replacement.
+
+Here's the result of running `cat -n` on a snippet of the edited file:
+   1→import { createFileRoute } from "@tanstack/react-router";
+   2→import Navbar from "@/components/Navbar";
+   3→import Footer from "@/components/Footer";
+   4→import Achievements from "@/components/Achievements";
+   5→import Team from "@/components/Team";
+   6→import SustainabilityRoadmap from "@/components/SustainabilityRoadmap";
+   7→import { Lightbulb, Cog, ShieldCheck, TrendingUp, Users, Crown, type LucideIcon } from "lucide-react";
+   8→
+   9→export const Route = createFileRoute("/about")({
+  10→  component: AboutPage,
+  11→});
+  12→

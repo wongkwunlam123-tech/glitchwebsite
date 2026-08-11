@@ -1,0 +1,42 @@
+# WebSearch 完整正文
+# query: CSS background animation random movement organic fluid 2026
+# index: 3
+
+Safari关键帧颜色混用致跳帧，应统一hsl()或十六进制；linear渐变显机械感，宜用ease-in-out；background-color硬切引抖动，建议opacity+固定色；prefers-reduced-motion需根级兜底。
+关键帧颜色格式混用导致 Safari 跳帧
+部分旧版 Safari 对  rgb()  和十六进制（如  #3b82f6 ）混写的关键帧会丢弃中间帧，表现为颜色突变或卡顿。这不是 bug，而是渲染引擎对颜色空间插值的实现差异。
+实操建议：
+ - 统一使用  hsl()  或全十六进制，例如  hsl(210, 100%, 50%) → hsl(210, 90%, 60%)
+ - 避免  rgb(200, 200, 200) → #3b82f6  这类跨模型写法
+ - 若需兼容 IE10+，必须加  @-ms-keyframes  前缀，且  animation-fill-mode  在 IE 中行为异常，建议显式设为  forwards
+animation-timing-function 用 linear 造成机械感
+用  linear  做颜色渐变，人眼会感知为“卡住”或“假加载”，因为真实加载节奏是开头慢、中间快、结尾缓——这和  ease-in-out  的加速度曲线一致。
+常见错误现象：
+ - 设计师反馈“这个 loading 看着不自然”
+ - 用户在弱网下误判为页面无响应
+ - 多个元素同时用  linear  时，视觉节奏趋同，失去层次感
+实操建议：
+ - 显式声明  animation-timing-function: ease-in-out ，别依赖浏览器默认值
+ - 若需错峰启动多个闪烁元素，叠加  animation-delay: -0.3s ，但避免与  transform  动画共用同一 timing function
+background-color 硬切换触发重绘抖动
+直接在关键帧里写  0% { background-color: #fff; } 100% { background-color: #f00; } ，安卓 WebView 或低端设备可能因颜色插值延迟，出现短暂白屏或色块撕裂。
+使用场景：
+ - 表单校验失败高亮
+ - 卡片状态警示条
+ - 按钮悬停反馈（非纯装饰）
+实操建议：
+ - 改用  opacity  + 固定背景色组合，例如  background-color: #fef2f2; opacity: 0.7 → 1 → 0.8
+ - 加  will-change: opacity  提前提示合成器优化路径
+ - 避免  opacity: 0 → 1  全切，范围控制在  0.55–1  更安全
+prefers-reduced-motion 被忽略导致可访问性失效
+只给闪烁元素加  animation: none  不够。第三方组件、CSS 框架、甚至内联样式都可能绕过你的选择器，最终仍触发闪烁。
+边框动画css，简单的登录界面html
+这是一款好看的边框动画css，简单的登录界面html，4色边框线条动画，充分响应式设计，简约大方，可用于网页会员登录、后台登录等，供大家查看。
+下载
+立即学习 “ 前端免费学习笔记（深入） ”；
+实操建议：
+ - 在根级统一兜底： @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+ - 若需保留部分动画（如淡入），改用  animation-duration: 0.01ms  替代  none ，避免某些浏览器解析异常
+ - JS 控制动画时，务必监听  matchMedia('(prefers-reduced-motion: reduce)')  变化，动态启停
+真正稳定的颜色动画，从来不是靠堆参数，而是守住三件事：关键帧首尾状态一致、 animation-fill-mode  显式声明、以及合成层行为可控。其中最容易被跳过的，是  will-change  和  prefers-reduced-motion  的组合校验——它们不报错，但一上线就暴露在真实用户眼里。
+下载

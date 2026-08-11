@@ -1,0 +1,31 @@
+# WebSearch 完整正文
+# query: Carnegie Mellon CMU VEX U robotics official site
+# index: 5
+
+Check your materials
+There are some things required for the class that are not included: 
+LEGO® Education SPIKE™ Prime Set LEGO® Education SPIKE™ App
+See below under “Installation”
+A clear workspace of approximately 4'x4' (1.2m x 1.2m) with a uniformly-colored surface (e.g. white table or floor) 1 roll of electrical tape (or similar tape to mark the floor) A ruler or meter stick PC, Mac, or compatible device that can use the LEGO® Education SPIKE™ App 
+Assignment Zero: Installation
+This is only required if you are planning on using Physical LEGO EV3 robots.
+Install the LEGO Education SPIKE App programming software on your device. The app is compatible with Mac, Windows, iPad, Android, and Chromebooks. To download the software, go to the following link and select your operating system from the drop-down menu: 
+https://education.lego.com/en-us/downloads/spike-prime/software
+Build the TACObot
+Use the instructions below to build the robot needed for the course and the props recommended for the challenges.  TACObot:  https://www.cs2n.org/u/mp/badge_pages/1435 Props:
+Fork:  https://www.cmu.edu/roboticsacademy/PDFs/Curriculum/tacobot-instructions/fork.pdf Ice Crystal:  https://www.cmu.edu/roboticsacademy/PDFs/Curriculum/tacobot-instructions/ice-crystals-build-instructions-v01.pdf Wifi Module:  https://www.cmu.edu/roboticsacademy/PDFs/Curriculum/tacobot-instructions/wifi-module.pdf
+Curriculum Access
+Next, you will set up your account to access the course's curriculum materials - videos, quizzes, and other assignments - through CS2N, the CS-STEM Network. 
+Go here and create a username and password:
+https://www.cs2n.org/signup CHECK YOUR EMAIL  for the activation link!
+Join the CS2N group for the Class:
+Click the following link to join the Group:  [link changes with each training cohort] You are now added to the group'
+To view the Course Materials:
+You can find the course under your Groups:
+Go to the CS2N Groups tab Select [name changes with each training cohort] This is our group! Here you will find our class presentations, class recordings, and curriculum
+If you encounter any trouble during this process, don't worry; we can troubleshoot any issues during the first class session (see below!).
+(Optional but recommended) Test Zoom Meeting
+The online training utilizes the Zoom Web Conferencing software. If you’d like to test out if your computer is compatible with the Zoom Web Conferencing software, please use this link to join a Test Meeting:  https://support.zoom.us/hc/en-us/articles/115002262083-Joining-a-Test-Meeting First class meeting
+During the first meeting, we will discuss installation, orientation, and some overall course logistics. We will also get started with programming the robot and look into the  Coding and Computational Thinking with SPIKE Prime  curriculum. If you’ve had any trouble with the steps above, don’t worry, we can help you with them once you’re connected to the class.
+To connect to class: 
+Go to:  [link changes with each training ...

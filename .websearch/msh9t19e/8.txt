@@ -1,0 +1,19 @@
+# WebSearch 完整正文
+# query: Carnegie Mellon CMU VEX U robotics official site
+# index: 9
+
+SMART is endorsed by the ARM Insitute 
+Professional Development
+SMART Live Online Training: Software Foundations & Robotics Integrations (Parallax ShieldBot with Arduino) SMART Anytime Training: Electrical Foundations with Arduino (Shield-Bot) SMART Anytime Training: Mechanical Foundations (with VEX V5) SMART Anytime Training: Mechanical Foundations (with REV DUO) SMART Anytime Training: Fabrication Foundations (with Hand Tools)
+SMART CERTIFICATION
+Learners who earn the base five micro-certifications are eligible to earn the SMART Certification. The SMART Certification is endorsed by the ARM Institute, Carnegie Mellon Robotics Academy, and the National Robotics Engineering Center. 
+Pre-Apprenticeship to Apprenticeship
+The SMART Robotics Technician Curriculum is also a registered pre-apprenticeship program in Pennsylvania. This pre-apprenticeship is tied to:  New Century Careers’ Robotics Technician Apprenticeship Program
+Are you a student and are looking to go through this program?
+The pre-apprenticeship program is currently being set up in various locations in Pittsburgh, PA. Please check back for updates or email us at  cmra@nrec.ri.cmu.edu . 
+Looking to implement this program in your organization/school?
+If you are an educational institution within Pennsylvania and are interested in implementing this program, contact us at  cmra@nrec.ri.cmu.edu . There may be grant opportunities available.
+For all areas:  We have an  Implementer's Guide  that contains the overview of the program, course descriptions, links to needed materials, and some expectations. 
+SMART Partners
+Industry Partners
+Schools

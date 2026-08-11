@@ -1,0 +1,23 @@
+# WebSearch 完整正文
+# query: CSS background animation random movement organic fluid 2026
+# index: 2
+
+答案：通过CSS的@keyframes和transform实现图片轮播。1. HTML结构包含外层容器和内层滑动容器，内层放置多张图片并水平排列，最后一张图重复第一张以实现无缝循环。2. CSS设置容器overflow: hidden隐藏溢出，内层使用flex布局横向排列图片，宽度设为300%（三张图），并通过@keyframes定义动画关键帧，控制translateX从0到-300%，实现平移切换。3. 动画时长8秒，无限循环，在100%时移动至第四张（即首图复制品），视觉上形成连续滚动。4. 可优化动画缓动函数为ease-in-out，添加遮罩、响应式适配及禁用选中等提升体验。该方案纯CSS实现，兼容性好，适用于静态图集展示。
+实现图片轮播动画可以通过 CSS 的  关键帧动画（@keyframes）  和  变换（transform）  配合容器的溢出隐藏来完成。下面是一个简单、实用的纯 CSS 图片轮播实现方法。
+1. 基本 HTML 结构
+轮播区域包含一个外层容器和一个内层滑动容器，内层放置多张图片并水平排列。
+<div class="carousel-container">   <div class="carousel-track">     <img src="image1.jpg" alt="Image 1">     <img src="image2.jpg" alt="Image 2">     <img src="image3.jpg" alt="Image 3">     <img src="image1.jpg" alt="Image 1 (repeat)">   </div> </div> 
+注意：最后一张图重复第一张，是为了实现无缝循环效果。
+2. 核心 CSS 样式
+设置容器隐藏溢出，内层使用 flex 布局横向排列图片，并通过动画平移实现轮播。
+.carousel-container {   width: 600px;   height: 400px;   overflow: hidden;   margin: 50px auto;   position: relative; } <p>.carousel-track { display: flex; width: 300%; /<em> 3张图，每张占100% </em>/ animation: slide 8s infinite; }</p><p>.carousel-track img { width: 33.333%; height: 400px; object-fit: cover; }</p><p>@keyframes slide { 0% { transform: translateX(0); } 33.33% { transform: translateX(-100%); } 66.66% { transform: translateX(-200%); } 100% { transform: translateX(-300%); } }</p>
+说明：
+overflow: hidden  确保只显示当前区域 flex + 宽度 300%  让三张图排成一行 @keyframes slide  控制每阶段移动一整张图的位置 动画时长 8 秒，可按需调整
+3. 实现无缝循环的关键
+为了让轮播回到起点时不闪现，最后添加一张首图作为第四张，并在动画结束时刚好滑到这张图的位置，视觉上就形成了连续滚动。
+动画从 0% 到 100%，共四帧，对应四张图的切换点 当动画完成时，translateX(-300%) 正好显示“假”的第一张图 由于内容相同，人眼无法察觉跳转
+4. 可选优化
+提升用户体验的小技巧：
+使用  ease-in-out  或  cubic-bezier  让动画更自然 添加  ::before  遮罩层防止快速滑动时看到边缘 用  @media 查询  适配移动端尺寸 禁用鼠标选中： user-select: none;
+基本上就这些。纯 CSS 轮播适合静态图集展示，不依赖 JavaScript，兼容性好，维护简单。如果需要交互控制（如左右按钮、指示点），再结合 JS 会更完整。
+如果你了解HTML，CSS和JavaScript，您已经拥有所需的工具开发Android应用程序。本动手本书展示了如何使用这些开源web标准设计和建造，可适应任何Android设备的应用程序 - 无需使用Java。您将学习如何创建一个在您选择的平台的Andr​​oid友好的网络应用程序，然后转换与自由PhoneGap框架到一个原生的Andr​​oid应用程序。了解为什么设备无关的移动应用是未来的潮流，并开始构建应用程序，提供更

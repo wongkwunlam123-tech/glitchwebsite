@@ -1,0 +1,82 @@
+# WebSearch 完整正文
+# query: MIT VEX U robotics team official website 2025
+# index: 9
+
+一、国际科学奥林匹克竞赛
+　　1、国际生物奥林匹克竞赛(IBO)
+　　IBO是为中学生举办的世界ji生物竞赛，旨在考察参赛者的生物实验技能和解决生物难题的能力。考察的重点是学生对生物学的兴趣、创造力和百折不挠的精神。项目亮点：成绩优xiu者将增加世界名校医学、生物等理科专业申请优势。官网： https://www.ibo-info.org/en/contest.html
+　　2、国际化学奥林匹克(IChO)
+　　IChO是国际规模和影响最大的中学生化学学科竞赛活动。它成立的宗旨是，促进不同国家青年人之间的友好联系，鼓励国际的合作与理解。
+　　官网： http://www.icho.sk/
+　　3、国际信息学奥林匹克(IOI)
+　　IOI需要层层选拔，先在全国青少年信息学奥林匹克联赛(NOIP)中获得一等奖。
+　　官网： https://ioinformatics.org/ 参赛方式：线上
+　　4、国际语言奥林匹克竞赛(IOL)
+　　IOL是一项面向全世界高中生的国际性科学交流活动。它以锻炼和培养参赛者的思维能力、团队合作能力和问题解决能力而著称。
+　　官网： https://ioling.org/
+　　5、国际数学奥林匹克(IMO)
+　　IMO素有“数学世界杯”之称，是国际科学奥林匹克史上最长的赛事。它每年举办一次，由参赛国轮流主办。
+　　官网： https://imo2021.ru/
+　　6、国际物理奥林匹克(IPhO)
+　　IPhO由原捷克斯洛伐克、匈牙利和波兰三国物理学家发起，之后逐步成为国际性的物理竞赛。该竞赛于每年6月底7月初进行，参赛者的年龄不能超过20岁。
+　　官网： https://www.ipho2021.lt/en/about/
+　　7、国际天文学和天体物理奥林匹克(IOAA)
+　　IIOAA是国际科学奥林匹克的一部分，已连续举办过13届，旨在激发学生对经济学知识的兴趣，培养解决问题的能力，建立批判性思维习惯。
+　　链接： https://en.wikipedia.org/wiki/International_Olympiad_on_Astronomy_and_Astrophysics
+二、科学研究/竞赛
+　　1、英特尔国际科学与工程大奖赛(ISEF)
+　　ISEF是全球规模最大、等级zui高的9-12年级科学竞赛。它也被称为“科学世界杯”。
+　　官网： https://www.societyforscience.org/isef/ 适合年级：9-12年级
+　　2、再生元科学天才奖(Regeneron STS)
+　　STS是美国历史最悠久、声誉zui高的青少年科技竞赛活动，每年约有1700名学生报名参赛。
+　　官网： http://www.societyforscience.org/STS
+　　3、Google全球科学大赛
+　　创办于2011年，是一个在线科学竞赛。它的组织方不仅有谷歌公司，还有乐高、国家地理和科学美国人等知名公司。
+　　官网： https://edu.google.com/ 参赛资格：13-18岁中学生
+　　4、 戴维森学者奖学金
+　　戴维森研究员奖学金被《福布斯》评为“美国最负盛名的本科奖学金之一”
+　　官网： http://www.davidsongifted.org/fellows/
+　　5、Lemelson- MIT  InvenTeams
+　　Lemelson-MIT计划已帮助成千上万的学生和教育者学习发明，并在25年的时间里认可了数百名大学和中层职业发明家。
+　　官网： https://lemelson.mit.edu/
+　　6、国际青年物理学家锦标赛
+　　这项赛事旨在锻炼中学生解决复杂科学问题的能力，并且能够针对这些问题给出令人信服的解决方案。
+　　官网： https://www.iypt.org/
+　　7、Breakthrough少年挑战赛
+　　每个学生提交一个不超过3分钟的全英文短视频，解释数学，生命科学或物理学中具有挑战性和重要的概念或理论。
+　　官网： https://breakthroughjuniorchallenge.org/ 适合资格：13-18岁
+　三、机器人竞赛
+　　1、机器人竞赛(FRC)
+　　FRC比赛是由美国非盈利性机构FIRST主办，面向所有中学生的一项工业级机器人竞赛。
+　　官网： https://www.firstinspires.org/
+　　2、Zero Robotics
+　　Zero Robotics是一项机器人编程竞赛，其中的机器人是国际空间站内的SPHERES(同步定位保持啮合和定向实验卫星)。
+　　官网： http://zerorobotics.mit.edu/
+　　3、 BattleBots IQ
+　　BattleBotsIQ是由电视节目《BattleBots》的创作者提供的教育计划。BattleBots + STEM =工程教育的未来。
+　　链接： http://www.botsiq.org/
+　　4、VEX机器人
+　　VEX机器人比赛是美国太空总署(NASA)、美国易安信公司(EMC)、雪佛龙，德州仪器，诺斯罗普·格鲁曼公司，和其他美国公司大力支持的机器人项目。
+　　官网链接: http://www.vexrobotics.com/
+　　5、Botball
+　　BotBall 国际机器人竞赛是一项起源于美国麻省理工大学(MIT)的教育机器人活动。该竞赛是美国乃至国际上具有非凡影响力的青少年教育机器人活动。
+　　官网： http://www.botball.org/
+四、创客博览会
+　　1、MAKE杂志竞赛
+　　在每期中获得数十个项目，涉及DIY电子产品，3D打印，工艺等，向制造者社区的zhuan家学习技巧和技能构建教程
+　　官网： https://makezine.com/
+　　2、Instructables
+　　Instructables是一项网络在线技能知识竞赛。在网站上，用户可以上传自己的动手项目，其他用户可以对其进行打分。
+　　官网： https://www.instructables.com/
+　　3、 Adafruit
+　　Adafruit由MIT工程师Limor“ Ladyada” Fried于2005年成立。她的目标是创建一个在线学习电子产品的zui佳场所，并为各个年龄段和技能水平的制造商提供设计zui佳的产品。
+　　官网： https://www.adafruit.com
+　　4、MITERS
+　　MITERS是麻省理工学院校园内的成员经营的项目空间和机加工车间。为MIT社区提供了使他们的项目得以实现所需的工具，知识和空间。
+　　官网： http://miters.mit.edu/
+五、 MIT官方的竞赛
+　　1、哈佛-麻省理工学院数学锦标赛 (HMMT)
+　　HMMT是全美影响力最大，名校理工科专业认可程度zui高的高中数学竞赛之一。由哈佛大学与麻省理工大学数学协会联合举办，每年邀请1000多名来自全美及世界各地的优xiu高中生组队参加。
+　　官网： https://www.hmmt.co/
+　　2、MIT Think
+　　麻省理工学院发起的THINK奖学金项目，一项...

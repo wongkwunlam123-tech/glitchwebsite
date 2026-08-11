@@ -1,0 +1,73 @@
+# WebSearch 完整正文
+# query: Stanford VEX U robotics team website
+# index: 5
+
+VEX 产品手册
+VEX EXP 产品单页
+VEX 123 产品单页
+VEX V5 产品单页
+VEX GO 产品单页
+VEX CTE 产品单页
+VEX AIM 产品单页
+VEX AI 产品单页
+VEX IQ 产品单页
+VEXcode VR 产品单页
+VEX GO 产品单页
+VEX AIM 产品单页
+VEX IQ 产品单页
+VEX EXP 产品单页
+VEX V5 产品单页
+VEX CTE 产品单页
+VEX AI 产品单页
+VEXcode VR 产品单页
+VEX U 资源
+VEX U 单页
+VEX U 专项赛单页
+VEX U 招新海报
+VEX U 资源
+VEX U 单页
+VEX U 专项赛单页
+VEX U 招新海报
+教室空间规划
+墙纸
+玻璃窗贴
+适用于VEX 123,VEX GO,VEX IQ 教室
+适用于VEX EXP,VEX V5,VEX CTE 教室
+适用于VEX 123,VEX GO,VEX IQ 教室
+适用于VEX EXP,VEX V5,VEX CTE 教室
+海报
+VEX 产品生态（中/英）
+VEXcode 编程（中/英）
+VEX 竞赛（中/英）
+教室空间规划
+墙纸
+适用于VEX 123,VEX GO,VEX IQ 教室
+适用于VEX EXP,VEX V5,VEX CTE 教室
+适用于VEX 123,VEX GO,VEX IQ 教室
+适用于VEX EXP,VEX V5,VEX CTE 教室
+海报
+VEX 产品生态（中/英）
+VEXcode 编程（中/英）
+VEX 竞赛（中/英）
+视频
+VEX 生态系统
+2026-2027 VIQRC 赛事规则
+VEX EXP 新手快速入门指南
+2026-2027 V5RC 赛事规则
+VEX IQ 新手快速入门指南
+VEX AI 视觉仪
+视频
+VEX 生态系统
+2026-2027 VIQRC 赛事规则
+VEX EXP 新手快速入门指南
+2026-2027 V5RC 赛事规则
+VEX IQ 新手快速入门指南
+VEX AI 视觉仪
+英文资源
+VEX 品牌LOGO
+海报资源
+产品手册
+英文资源
+VEX 品牌LOGO
+海报资源
+产品手册
