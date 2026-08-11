@@ -13,22 +13,22 @@ const BENEFITS = [
   {
     Icon: Globe,
     title: "Brand Visibility",
-    desc: "Your logo displayed on our robot, team apparel, engineering notebook, and social media platforms.",
+    desc: "Showcase your organization on our robot, team assets, and public-facing robotics materials throughout the season.",
   },
   {
     Icon: Users,
     title: "Talent Pipeline",
-    desc: "Direct access to top engineering students from PolyU for recruitment and internship opportunities.",
+    desc: "Connect with PolyU students who are building technical skills in engineering, software, design, and strategy.",
   },
   {
     Icon: Award,
-    title: "Industry Recognition",
-    desc: "Association with a competitive robotics team demonstrates commitment to STEM education and innovation.",
+    title: "STEM Impact",
+    desc: "Support hands-on engineering education and show your commitment to future-ready innovation in Hong Kong.",
   },
   {
     Icon: Handshake,
-    title: "Partnership Events",
-    desc: "Invitations to team demonstrations, competition events, and exclusive sponsor appreciation activities.",
+    title: "Partnership Access",
+    desc: "Join our team events, demos, and student engagement opportunities as a valued sponsor partner.",
   },
 ];
 
@@ -86,6 +86,9 @@ function SponsorsPage() {
                   <p className="text-xs text-muted-foreground leading-relaxed">{b.desc}</p>
                 </div>
               ))}
+            </div>
+            <div className="mt-6 rounded-2xl border border-primary/20 bg-primary/5 p-5 text-center text-sm text-muted-foreground leading-relaxed">
+              Sponsoring GLITCH means investing in PolyU engineering talent, hands-on robotics education, and the next generation of students ready to build and compete at a global standard.
             </div>
           </div>
 

@@ -57,6 +57,10 @@ function Index() {
                 Engineering Excellence. Global Ambition.
               </p>
 
+              <p className="reveal mt-5 max-w-xl text-sm md:text-base text-muted-foreground/90" data-reveal-delay="180">
+                GLITCH Robotics brings together mechanical design, software engineering, and strategy to build high-performance robots that compete at the highest level.
+              </p>
+
               <div className="reveal mt-8 flex flex-wrap items-center gap-4" data-reveal-delay="260">
                 <Link
                   to="/robot"
@@ -115,6 +119,27 @@ function Index() {
               <h2 className="font-display text-3xl font-bold mb-3">What is VEX U?</h2>
               <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto">
                 The premier university-level robotics competition — where students engineer real solutions with professional-grade tools and techniques.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+              {[
+                { value: "2026", label: "Founded at PolyU" },
+                { value: "6+", label: "Engineering disciplines" },
+                { value: "3", label: "Core team pillars" },
+                { value: "1", label: "Shared mission: build smarter" },
+              ].map((item) => (
+                <div key={item.label} className="glass rounded-xl p-4 text-center">
+                  <div className="font-display text-2xl md:text-3xl font-bold text-gradient">{item.value}</div>
+                  <p className="mt-2 text-xs text-muted-foreground uppercase tracking-[0.15em]">{item.label}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mb-10 rounded-2xl border border-primary/20 bg-primary/5 p-5 md:p-6">
+              <p className="font-mono text-[10px] uppercase tracking-[0.28em] text-electric mb-3">WHY GLITCH</p>
+              <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
+                We combine rapid prototyping, autonomous systems, and strategic competition thinking to turn ambitious engineering ideas into reliable match-ready machines.
               </p>
             </div>
 

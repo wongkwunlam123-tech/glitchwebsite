@@ -56,6 +56,9 @@ function JoinPage() {
                 </div>
               ))}
             </div>
+            <div className="mt-6 rounded-xl border border-primary/20 bg-primary/5 p-4 text-sm text-muted-foreground text-center">
+              We welcome PolyU students from all backgrounds who are curious, collaborative, and ready to learn by building. If you enjoy solving hard problems and working in a team, you belong here.
+            </div>
           </div>
 
           {/* Timeline */}

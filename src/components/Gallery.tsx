@@ -7,18 +7,17 @@ interface GalleryItem {
   url: string;
   caption: string;
   category: (typeof CATEGORIES)[number];
-  isPlaceholder?: boolean;
 }
 
 const ITEMS: GalleryItem[] = [
-  { url: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=60&fm=webp", caption: "Upload Team Photos", category: "Team", isPlaceholder: true },
-  { url: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=60&fm=webp", caption: "Upload Team Photos", category: "Team", isPlaceholder: true },
-  { url: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&q=60&fm=webp", caption: "Upload Robot Photos", category: "Robot", isPlaceholder: true },
-  { url: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=60&fm=webp", caption: "Upload Robot Photos", category: "Robot", isPlaceholder: true },
-  { url: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=60&fm=webp", caption: "Upload Workshop Photos", category: "Workshop", isPlaceholder: true },
-  { url: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&q=60&fm=webp", caption: "Upload Competition Photos", category: "Competition", isPlaceholder: true },
-  { url: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=60&fm=webp", caption: "Upload CAD Renders", category: "CAD Design", isPlaceholder: true },
-  { url: "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?w=800&q=60&fm=webp", caption: "Upload CAD Renders", category: "CAD Design", isPlaceholder: true },
+  { url: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=60&fm=webp", caption: "Team planning session before prototype review", category: "Team" },
+  { url: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=60&fm=webp", caption: "PolyU robotics members working through design tradeoffs", category: "Team" },
+  { url: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&q=60&fm=webp", caption: "Robot drivetrain prototype in early testing", category: "Robot" },
+  { url: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=60&fm=webp", caption: "Mechanical assembly and integration workflow", category: "Robot" },
+  { url: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=60&fm=webp", caption: "Workshop bench setup for fabrication and tuning", category: "Workshop" },
+  { url: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&q=60&fm=webp", caption: "Competition field setup and match preparation", category: "Competition" },
+  { url: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=60&fm=webp", caption: "CAD render for a drivetrain and intake concept", category: "CAD Design" },
+  { url: "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?w=800&q=60&fm=webp", caption: "Design iteration and mechanism analysis in CAD", category: "CAD Design" },
 ];
 
 function Lightbox({ items, currentIndex, onClose, onPrev, onNext }: {

@@ -20,14 +20,15 @@ export default function About() {
           </h2>
           <div className="space-y-5 text-muted-foreground leading-relaxed">
             <p>
-              GLITCH Robotics is a student-led VEX U robotics team at The Hong Kong Polytechnic
-              University. Founded by students with previous VEX V5 competition experience and
-              award achievements, GLITCH develops world-class university robotics through
-              engineering innovation, teamwork, and continuous learning.
+              GLITCH Robotics is a student-led VEX U team at The Hong Kong Polytechnic University,
+              built around the idea that great engineering starts with curiosity, discipline, and
+              real-world problem solving. We design, prototype, program, and compete with robots
+              that reflect the standards of modern engineering teams.
             </p>
             <p>
-              Our mission is to design, build, and program competitive robots while inspiring
-              future engineers and representing PolyU on the international stage.
+              Founded by students with prior VEX experience, our mission is to turn ideas into
+              testable hardware, robust software, and competitive performance — while creating a
+              culture where future engineers can learn fast, build boldly, and lead with purpose.
             </p>
           </div>
         </div>

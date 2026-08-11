@@ -76,7 +76,7 @@ function ContactPage() {
             <div className="reveal glass rounded-2xl p-8 mt-6" data-reveal-delay="100">
               <h3 className="font-display text-xl font-semibold mb-4">PolyU Information</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                GLITCH Robotics operates under The Hong Kong Polytechnic University.
+                GLITCH Robotics operates under The Hong Kong Polytechnic University and welcomes collaboration opportunities in sponsorship, engineering outreach, and recruitment.
               </p>
             </div>
           </div>
