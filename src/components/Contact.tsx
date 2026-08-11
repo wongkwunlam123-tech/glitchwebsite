@@ -1,10 +1,9 @@
-import { MapPin, Mail, Instagram, Linkedin, Github, Youtube } from "lucide-react";
+import { MapPin, Mail, Instagram, MessageCircle } from "lucide-react";
 
 const SOCIALS = [
-  { Icon: Instagram, label: "Instagram", href: "#" },
-  { Icon: Linkedin, label: "LinkedIn", href: "#" },
-  { Icon: Github, label: "GitHub", href: "#" },
-  { Icon: Youtube, label: "YouTube", href: "#" },
+  { Icon: Instagram, label: "Instagram", href: "https://www.instagram.com/glitch.polyu?igsh=MTdncnpscDhybWFyOA==" },
+  { Icon: MessageCircle, label: "Discord", href: "https://discord.gg/z2msHsw6q" },
+  { Icon: Mail, label: "Email", href: "mailto:25030034d@connect.polyu.hk" },
 ];
 
 export default function Contact() {
@@ -31,11 +30,15 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="h-5 w-5 shrink-0 text-electric" />
-                  <span className="text-muted-foreground">(To be added)</span>
+                  <a href="mailto:25030034d@connect.polyu.hk" className="text-muted-foreground transition-colors hover:text-electric">
+                    25030034d@connect.polyu.hk
+                  </a>
                 </div>
                 <div className="flex items-center gap-3">
-                  <Youtube className="h-5 w-5 shrink-0 text-electric" />
-                  <span className="text-muted-foreground">Social Media: (To be added)</span>
+                  <MessageCircle className="h-5 w-5 shrink-0 text-electric" />
+                  <a href="https://discord.gg/z2msHsw6q" target="_blank" rel="noreferrer" className="text-muted-foreground transition-colors hover:text-electric">
+                    Join our community
+                  </a>
                 </div>
               </div>
             </div>

@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="GLITCH Robotics is the VEX U robotics team at The Hong Kong Polytechnic University, building engineering talent, autonomous systems, and competitive innovation." />
+    <meta name="theme-color" content="#0d111d" />
+    <meta property="og:title" content="GLITCH Robotics | The Hong Kong Polytechnic University VEX U Team" />
+    <meta property="og:description" content="Engineering excellence. Global ambition. GLITCH Robotics designs, programs, and competes with student-led robotics systems at PolyU." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/glitch-logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
     <title>GLITCH Robotics | The Hong Kong Polytechnic University VEX U Team</title>
     <style>
-      /* 内联样式确保主题色立即生效，避免闪烁 */
+      /* inline style ensures theme is applied before React loads */
       html, body {
         margin: 0;
         padding: 0;
@@ -22,7 +29,7 @@
       }
     </style>
     <script>
-      // 在 React 加载前立即设置主题，避免闪烁
+      // set a default theme before React loads to avoid flash
       (function() {
         const isInIframe = window.self !== window.top;
 
@@ -33,7 +40,6 @@
         }
 
         if (isInIframe) {
-          // 监听父窗口主动推送的主题消息
           window.addEventListener('message', function(event) {
             if (event.data && typeof event.data.theme === 'string') {
               var theme = event.data.theme;
@@ -43,7 +49,6 @@
             }
           });
         } else {
-          // 非 iframe 环境，使用默认 light 主题
           applyThemeToDOM('light');
         }
       })();

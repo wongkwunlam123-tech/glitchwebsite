@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MapPin, Mail, Instagram, Linkedin, Github, CheckCircle2 } from "lucide-react";
+import { MapPin, Mail, Instagram, MessageCircle, CheckCircle2 } from "lucide-react";
 
 const DEPARTMENTS = [
   "Mechanical Engineering",
@@ -116,18 +116,27 @@ export default function JoinContact() {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 shrink-0 text-electric" />
-                <span className="text-muted-foreground">contact@glitch-robotics.hk</span>
+                <a href="mailto:25030034d@connect.polyu.hk" className="text-muted-foreground transition-colors hover:text-electric">
+                  25030034d@connect.polyu.hk
+                </a>
               </div>
             </div>
             <div className="mt-6 flex gap-3">
-              {[Instagram, Linkedin, Github].map((Icon, i) => (
-                <button
-                  key={i}
-                  aria-label="social link"
+              {[
+                { Icon: Instagram, href: "https://www.instagram.com/glitch.polyu?igsh=MTdncnpscDhybWFyOA==", label: "Instagram" },
+                { Icon: MessageCircle, href: "https://discord.gg/z2msHsw6q", label: "Discord" },
+                { Icon: Mail, href: "mailto:25030034d@connect.polyu.hk", label: "Email" },
+              ].map(({ Icon, href, label }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target={href.startsWith("http") ? "_blank" : undefined}
+                  rel={href.startsWith("http") ? "noreferrer" : undefined}
+                  aria-label={label}
                   className="glass flex h-11 w-11 items-center justify-center rounded-full text-muted-foreground transition hover:text-electric hover:glow-primary"
                 >
                   <Icon className="h-5 w-5" />
-                </button>
+                </a>
               ))}
             </div>
           </div>

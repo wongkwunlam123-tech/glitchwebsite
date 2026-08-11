@@ -146,7 +146,9 @@ function RoadPage() {
                   Support Us
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/glitch.polyu?igsh=MTdncnpscDhybWFyOA=="
+                  target="_blank"
+                  rel="noreferrer"
                   className="inline-flex items-center justify-center gap-2 rounded-lg border border-border bg-secondary/50 px-8 py-3 text-sm font-semibold text-foreground hover:border-primary/50 hover:bg-secondary transition-all duration-300"
                 >
                   Follow Progress
