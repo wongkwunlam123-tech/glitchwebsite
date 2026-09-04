@@ -95,8 +95,8 @@ const avatar = (seed: string) => {
   const bgEffects = hash % 3 === 0 ?
     `<circle cx="50" cy="50" r="40" fill="${palette.glow}" opacity="0.2"/>` :
     hash % 3 === 1 ?
-    `<rect x="10" y="10" width="80" height="80" fill="${palette.glow}" opacity="0.15" rx="5"/>` :
-    '';
+      `<rect x="10" y="10" width="80" height="80" fill="${palette.glow}" opacity="0.15" rx="5"/>` :
+      '';
 
   return `data:image/svg+xml,${encodeURIComponent(`
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
@@ -181,26 +181,26 @@ const avatar = (seed: string) => {
 const MEMBER_ICONS: Record<string, React.ElementType> = {
   "YU Ka Wai": Cpu, // 4+ years VEX; mechanical + autonomous programming + leadership; pneumatic systems expert
   "Wong Kwun Lam": Compass, // Strategy expert; drivetrain tuning; scouting & competition tactics
-  "WONG Colin Michael": Terminal, // Programming specialist; C++/PROS; autonomous routines
+  "NG Kam Pang": Terminal, // Programming specialist; C++/PROS; autonomous routines
   "YEUNG Lok Him": Wrench, // Strong CAD (Onshape/SolidWorks); gear ratios; metal/carbon fiber fabrication
   "NG Ching Man": Sparkles, // Building competitions; rapid prototyping; excellent presentation & PPT skills
   "Leong I Leng": Zap, // WRO experience; mission strategy; attachment design; time-optimized performance
   "Liu Huanying": PenTool, // CAD expert (SolidWorks/Fusion 360); chassis & manipulator design; laser cutting
   "Li Wing Lam": Database, // Engineering Notebook specialist; documentation; judges' presentation skills
-  "Pinpinut WATANAWALUN": Settings, // 3D printing; assembly; testing; rapid prototyping
+  "U Hoi Lam": Settings, // 3D printing; assembly; testing; rapid prototyping
   "Chong Yuet": Network, // Data analysis; game theory; strategic planning & optimization
 };
 
 const MEMBERS: TeamMember[] = [
   { name: "YU Ka Wai", role: "All-around", department: "Local", section: "Leadership", skills: ["Mechanical", "Programming", "Strategy"], vexExperience: "VEX since secondary school", awards: "Multiple VEX awards & competition experience", interests: "Full-stack robotics", photo: avatar("yu-kawai-william") },
   { name: "Wong Kwun Lam", role: "All-around", department: "Local", section: "Leadership", skills: ["CAD", "Build", "Testing"], vexExperience: "VEX since secondary school", awards: "Multiple VEX awards & competition experience", interests: "System optimization", photo: avatar("wong-kwunlam-adrian") },
-  { name: "WONG Colin Michael", role: "Programmer", department: "Non-mainland non-local", section: "Programming", skills: ["C++", "PROS", "Autonomous"], vexExperience: "VEX U 2026-27", awards: "Programming Specialist", interests: "AI integration", photo: avatar("wong-colin-michael") },
+  { name: "NG Kam Pang", role: "Programmer", department: "Non-mainland non-local", section: "Programming", skills: ["C++", "PROS", "Autonomous"], vexExperience: "VEX U 2026-27", awards: "Programming Specialist", interests: "AI integration", photo: avatar("wong-colin-michael") },
   { name: "YEUNG Lok Him", role: "Programmer", department: "Local", section: "Programming", skills: ["PID", "Odometry", "Sensors", "RC Cars", "Advanced Control"], vexExperience: "External competitions (RC cars, robotics)", awards: "Multi-technique specialist", interests: "Motion planning & advanced control systems", photo: avatar("yeung-lokhim-jaco") },
   { name: "NG Ching Man", role: "Strategy", department: "Local", section: "Strategy", skills: ["Scouting", "Analytics", "Match Planning"], vexExperience: "VEX U 2026-27", awards: "Strategic Analysis", interests: "Competition tactics", photo: avatar("ng-chingman-alice") },
   { name: "Leong I Leng", role: "Mechanical design/build", department: "Non-local", section: "Mechanical", skills: ["SolidWorks", "CNC", "Prototyping"], vexExperience: "VEX U 2026-27", awards: "Design Excellence", interests: "Mechanism innovation", photo: avatar("leong-ileng-elaine") },
   { name: "Liu Huanying", role: "Promote", department: "Mainland non-local", section: "Media & Sponsorship", skills: ["Outreach", "Branding", "Communication"], vexExperience: "VEX U 2026-27", awards: "Team Ambassador", interests: "Public relations", photo: avatar("liu-huanying-holly") },
   { name: "Li Wing Lam", role: "Promote", department: "Local", section: "Media & Sponsorship", skills: ["Social Media", "Content", "Events"], vexExperience: "VEX U 2026-27", awards: "Media Coordinator", interests: "Digital marketing", photo: avatar("li-winglam-niki") },
-  { name: "Pinpinut WATANAWALUN", role: "Mechanical design/build", department: "Non-mainland non-local", section: "Mechanical", skills: ["3D Printing", "Assembly", "Testing"], vexExperience: "VEX U 2026-27", awards: "Build Specialist", interests: "Rapid prototyping", photo: avatar("pinpinut-watanawalun") },
+  { name: "U Hoi Lam", role: "Mechanical design/build", department: "Non-mainland non-local", section: "Mechanical", skills: ["3D Printing", "Assembly", "Testing"], vexExperience: "VEX U 2026-27", awards: "Build Specialist", interests: "Rapid prototyping", photo: avatar("pinpinut-watanawalun") },
   { name: "Chong Yuet", role: "Strategy", department: "Local", section: "Strategy", skills: ["Data Analysis", "Game Theory", "Planning"], vexExperience: "VEX U 2026-27", awards: "Strategic Planner", interests: "Optimization", photo: avatar("chong-yuet") },
 ];
 
@@ -280,11 +280,10 @@ export default function Team() {
             <button
               key={s}
               onClick={() => setActive(s)}
-              className={`rounded-full border px-4 py-1.5 text-xs transition-all duration-300 ${
-                active === s
-                  ? `bg-gradient-to-r ${SECTION_COLORS[s] || "from-primary to-accent"} border-transparent text-white shadow-[0_0_15px_-3px_oklch(0.62_0.22_250_/_40%)]`
-                  : "border-border text-muted-foreground hover:border-primary/40 hover:bg-primary/5"
-              }`}
+              className={`rounded-full border px-4 py-1.5 text-xs transition-all duration-300 ${active === s
+                ? `bg-gradient-to-r ${SECTION_COLORS[s] || "from-primary to-accent"} border-transparent text-white shadow-[0_0_15px_-3px_oklch(0.62_0.22_250_/_40%)]`
+                : "border-border text-muted-foreground hover:border-primary/40 hover:bg-primary/5"
+                }`}
             >
               {s}
             </button>
