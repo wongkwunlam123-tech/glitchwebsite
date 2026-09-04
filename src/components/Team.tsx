@@ -188,7 +188,7 @@ const MEMBER_ICONS: Record<string, React.ElementType> = {
   "Liu Huanying": PenTool, // CAD expert (SolidWorks/Fusion 360); chassis & manipulator design; laser cutting
   "Li Wing Lam": Database, // Engineering Notebook specialist; documentation; judges' presentation skills
   "U Hoi Lam": Settings, // 3D printing; assembly; testing; rapid prototyping
-  "HARJO Valerie Patricia": Network, // Data analysis; game theory; strategic planning & optimization
+  "Valerie Patricia HARJO": Network, // Data analysis; game theory; strategic planning & optimization
 };
 
 const MEMBERS: TeamMember[] = [
@@ -201,7 +201,7 @@ const MEMBERS: TeamMember[] = [
   { name: "Liu Huanying", role: "Promote", department: "Mainland non-local", section: "Media & Sponsorship", skills: ["Outreach", "Branding", "Communication"], vexExperience: "VEX U 2026-27", awards: "Team Ambassador", interests: "Public relations", photo: avatar("liu-huanying-holly") },
   { name: "Li Wing Lam", role: "Promote", department: "Local", section: "Media & Sponsorship", skills: ["Social Media", "Content", "Events"], vexExperience: "VEX U 2026-27", awards: "Media Coordinator", interests: "Digital marketing", photo: avatar("li-winglam-niki") },
   { name: "U Hoi Lam", role: "Mechanical design/build", department: "Non-mainland non-local", section: "Mechanical", skills: ["3D Printing", "Assembly", "Testing"], vexExperience: "VEX U 2026-27", awards: "Build Specialist", interests: "Rapid prototyping", photo: avatar("pinpinut-watanawalun") },
-  { name: "HARJO Valerie Patricia", role: "Strategy", department: "Non-local", section: "Strategy", skills: ["Data Analysis", "Game Theory", "Planning"], vexExperience: "VEX U 2026-27", awards: "Strategic Planner", interests: "Optimization", photo: avatar("chong-yuet") },
+  { name: "Valerie Patricia HARJO", role: "Strategy", department: "Non-local", section: "Strategy", skills: ["Data Analysis", "Game Theory", "Planning"], vexExperience: "VEX U 2026-27", awards: "Strategic Planner", interests: "Optimization", photo: avatar("chong-yuet") },
 ];
 
 function MemberCard({ member, delay }: { member: TeamMember; delay: number }) {
